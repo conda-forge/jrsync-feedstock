@@ -1,5 +1,5 @@
 {% set name = "jrsync" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jrsync-{{ version }}.tar.gz
-  sha256: c5ce2012326446b2ec679a4becc3820226b647bd7eb5e235ad6be2cb0f6b328b
+  sha256: b940711b4fcd6dbb3cce16efffa2605038fc5c5d78bef1a0c5992bfb2079d9c4
 
 build:
   noarch: python
